@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        margin-top: 250px;
+        margin-left: 250px;
+        position: absolute;
+
+      }
+      div{
+        padding: 10px;
+        float: left;
+      }
+      .white{
+        background: white;
+        width: 100px;
+        border-style: solid;
+        padding-top: 250px;
+        padding-bottom: 125px;
+        position: relative;
+      }
+      .black{
+        background-color: black;
+        color: white;
+        width: 50px;
+        padding-top: 210px;
+        padding-bottom:25px;
+        position: absolute;
+        z-index: 1;
+      }
+      .cs{
+        left: 90px;
+      }
+      .ds{
+        left: 215px;
+      }
+      .fs{
+        left: 468px;
+      }
+      .gs{
+        left: 595px;
+      }
+      .as{
+        left: 720px;
+      }
+      div.white:hover{
+        padding-bottom: 130px;
+        transform: scaleX(1.1);
+      }
+      div.black:hover{
+        padding-bottom: 30px;
+        transform: scaleX(1.1);
+        z-index: 1;
+      }
+      div:active{
+        transform: scale(0.9);
+      }
+    </style>
+  </head>
+  <body>
+      <div class="white c"></div>
+      <div class="white d"></div>
+      <div class="white e"></div>
+      <div class="white f"></div>
+      <div class="white g"></div>
+      <div class="white a"></div>
+      <div class="white b"></div>
+      <div class="black cs"></div>
+      <div class="black ds"></div>
+      <div class="black fs"></div>
+      <div class="black gs"></div>
+      <div class="black as"></div>
+  </body>
+  <footer>
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+  </footer>
+</html>
