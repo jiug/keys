@@ -2,6 +2,10 @@
 <html>
   <head>
     <style>
+      h1{
+        display: grid;
+        justify-content: center;
+      }
       .container{
         margin-top: 7%;
         margin-left: 19%;
@@ -39,6 +43,14 @@
       }
       .key:active{
         transform: scale(0.9);
+      }
+       @media (max-width: 768px) {
+         .container{
+           height: 30vh;
+         }
+         .black{
+           height: 20vh;
+         }
       }
     </style>
   </head>
